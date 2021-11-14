@@ -11,7 +11,7 @@ script:
   - java --version
   #- ./mvnw clean install
   #- ./mvnw test
-  - mvn clean package sonar:sonar -P sonar
+  - mvnw clean package sonar:sonar -P sonar
 cache:
   directories:
     - $HOME/.m2
