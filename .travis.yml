@@ -9,7 +9,7 @@ addons:
     token: $SONAR_TOKEN
 script:
   - java --version
-  #- ./mvnw clean install
+  - ./mvnw clean install
   #- ./mvnw test
   - mvnw clean package sonar:sonar -P sonar
 cache:
